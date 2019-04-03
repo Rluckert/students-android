@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="30dp">
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/txtID"
+            android:inputType="textPersonName"
+            android:paddingBottom="20dp" />
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/txtName"
+            android:inputType="textPersonName"
+            android:paddingBottom="20dp" />
+
+        <EditText
+            android:id="@+id/txtLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/txtLastName"
+            android:inputType="textPersonName"
+            android:paddingBottom="20dp" />
+
+        <EditText
+            android:id="@+id/txtNota1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/txtNota1"
+            android:inputType="numberDecimal"
+            android:paddingBottom="20dp" />
+
+        <EditText
+            android:id="@+id/txtNota2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/txtNota2"
+            android:inputType="numberDecimal"
+            android:paddingBottom="20dp" />
+
+        <EditText
+            android:id="@+id/txtNota3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/txtNota3"
+            android:inputType="numberDecimal"
+            android:paddingBottom="30dp" />
+
+        <Button
+            android:id="@+id/btn_add"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="saveStudent"
+            android:text="@string/btn_add" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

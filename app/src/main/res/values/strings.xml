@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Students</string>
+
+    <string name="Error">Las notas no pueden ser menores que 0 y mayores que 5</string>
+    <string name="create">Crear estudiante</string>
+    <string name="list">Ver lista estudiantes</string>
+    <string name="done">Estudiante agregado</string>
+    <string name="txtName">Nombre</string>
+    <string name="txtLastName">Apellido</string>
+    <string name="txtID">Id</string>
+    <string name="txtNota1">Nota 1</string>
+    <string name="txtNota2">Nota 2</string>
+    <string name="txtNota3">Nota 3</string>
+    <string name="btn_add">Añadir estudiante</string>
+    <string name="title_students">Ver estudiantes</string>
+    <string name="txtNoStudents">No hay estudiantes en la lista</string>
+    <string name="Title_students">Detalles del estudiante</string>
+
+    <string-array name="menu">
+        <item>@string/create</item>
+        <item>@string/list</item>
+    </string-array>
+</resources>
